@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 const ViewRegistration = () => {
 
@@ -21,6 +22,7 @@ const ViewRegistration = () => {
 
     return (
         <div>
+            <NavigationBar />
             <h2 style={{ color: "#6A1B9A", textAlign: "center", fontFamily: "Montserrat" }}>
                 📚 VIEW ALL REGISTRATIONS</h2>
             <table class="table">
