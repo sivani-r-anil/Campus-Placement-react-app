@@ -1,14 +1,15 @@
 import React from 'react'
+import NavigationBar from './NavigationBar'
 
 const AddRegiststration = () => {
     return (
         <div>
-
+            <NavigationBar />
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                        <h2 style={{ color:"#6A1B9A", textAlign:"center", fontFamily:"Montserrat" }}>
+                        <h2 style={{ color: "#6A1B9A", textAlign: "center", fontFamily: "Montserrat" }}>
                             📚 REGISTER STUDENTS</h2>
 
                         <div className="row g-3">
